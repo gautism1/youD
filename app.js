@@ -5,6 +5,7 @@ const fs = require('fs');
 const ytdl = require('ytdl-core');
 const url=require('url');
 app.use(bodyParser.urlencoded({ extended: true })); 
+const port = process.env.PORT || 3000;
  
  app.use(express.static('assests'));
 
@@ -25,6 +26,6 @@ app.post('/myaction', function(req, res) {
   console.log(req.body.audio)
 });
 
-app.listen(80, function() {
+app.listen(port, function() {
   console.log('S yeah connected');
 });
