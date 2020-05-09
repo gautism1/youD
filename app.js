@@ -25,6 +25,6 @@ app.post('/myaction', function(req, res) {
   console.log(req.body.audio)
 });
 
-app.listen(8080, function() {
+app.listen(80, function() {
   console.log('S yeah connected');
 });
