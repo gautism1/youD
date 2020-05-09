@@ -1,0 +1,17 @@
+{
+  "name": "youD",
+  "short_name": "youD",
+  "description": "Download Yotube Video n HD Quality Now ",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0275d8",
+  "icons": [
+    {
+      "src": "assests/logo.png",
+      "sizes": "192*192",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#fff"
+}
